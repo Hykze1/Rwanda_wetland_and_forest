@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="120" viewBox="0 0 520 120">
+  <style>
+    .pulse { transform-origin: 260px 60px; animation: breathe 2.4s ease-in-out infinite; }
+    .glow { transform-origin: 260px 60px; animation: glow 2.4s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { transform: scale(0.94); } 50% { transform: scale(1.04); } }
+    @keyframes glow { 0%,100% { opacity: 0.15; transform: scale(0.95); } 50% { opacity: 0.45; transform: scale(1.12); } }
+  </style>
+  <rect class="glow" x="30" y="14" width="460" height="92" rx="46" fill="#2e7d32"/>
+  <g class="pulse">
+    <rect x="40" y="22" width="440" height="76" rx="38" fill="#1b5e20"/>
+    <text x="260" y="70" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle">🌿 Click to see the project ▶</text>
+  </g>
+</svg>
